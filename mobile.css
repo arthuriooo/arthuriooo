@@ -1,0 +1,376 @@
+@font-face {
+    font-family: 'Peace Sans'; /* Имя шрифта */
+    src: url('peace sans.otf');
+}
+
+@keyframes but1 {
+    from {
+        background-color: rgba(93, 22, 31, 0.9);
+    }
+    to {
+        background-color: rgba(150, 37, 30, 0.9);
+    }
+}
+
+@keyframes but2 {
+    0% {
+        background-color: rgba(93, 22, 31, 0.9);
+    }
+    100% {
+        background-color: RGBA(255, 161, 83, 0.9);
+    }
+}
+
+@keyframes but3 {
+    0% {
+        background-color: rgba(93, 22, 31, 0.9);
+    }
+    100% {
+        background-color: RGBA(155, 241, 240, 0.9);
+    }
+}
+
+@keyframes but4 {
+    0% {
+        background-color: rgba(93, 22, 31, 0.9);
+    }
+    100% {
+        background-color: RGBA(97, 255, 154, 0.9);
+    }
+}
+
+@keyframes but5 {
+    0% {
+        background-color: rgba(93, 22, 31, 0.9);
+    }
+    100% {
+        background-color: RGBA(236, 236, 167, 0.9);
+    }
+}
+
+@keyframes loade {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes callanim {
+    50% {
+        width: 45%;
+        right: 12.5%;
+    }
+    100% {
+        width: 40%;
+        right: 15%;
+    }
+}
+
+#desktop {
+    display: none;
+}
+
+#whole {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: fixed;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, palegoldenrod, paleturquoise );
+    animation-name: grad;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+#load {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    z-index: 101;
+}
+
+#load img {
+    animation: loade 1s linear infinite;
+}
+
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#enter {
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+}
+
+#knopka {
+    width: 100%;
+    background-color: rgba(93, 22, 31, 0.8);
+    position: relative;
+    margin: 50% auto 0;
+    border-top: double 10px white;
+    border-bottom: double 10px white;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0 0 200px white;
+}
+
+#knopka p {
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    padding: 0px 30px;
+    margin: 60px 0;
+    font-family:sans-serif;
+}
+
+#enter span{
+    font-size: 154px;
+}
+
+#whois {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(93, 22, 31, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    opacity: 1;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+    
+    display: none;
+}
+
+#whoare {
+    width: 70%;
+    margin: 70px auto 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#who {
+    text-align: center;
+    font-size: 90px;
+    margin: 10px 0 0;
+    color: white;
+    font-family: sans-serif;
+    border: 10px solid white;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#choices {
+    position: absolute;
+    bottom: 5%;
+    height: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.choose {
+    background-color: rgba(251, 253, 255, 0.15);
+    text-align: center;
+    font-size: 70px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    cursor: pointer;
+    margin: 30px 0;
+}
+.choose:first-child {
+    color: pink;
+    border-left: solid 10px pink;
+    border-right: solid 10px pink;
+    margin-top: 100px;
+}
+
+.choose:nth-child(2) {
+    color: sandybrown;
+    border-left: solid 10px sandybrown;
+    border-right: solid 10px sandybrown;
+}
+
+.choose:nth-child(3) {
+    color: paleturquoise;
+    border-left: solid 10px paleturquoise;
+    border-right: solid 10px paleturquoise;
+}
+
+.choose:nth-child(4) {
+    color: palegreen;
+    border-left: solid 10px palegreen;
+    border-right: solid 10px palegreen;
+}
+
+.choose:last-child {
+    color: palegoldenrod;
+    border-left: solid 10px palegoldenrod;
+    border-right: solid 10px palegoldenrod;
+}
+
+.choose:active {
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+}
+
+.nf {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: 20;
+    bottom: -90%;
+    background-color: rgba(251, 253, 255, 0.5);
+}
+
+#prsnl {
+    text-align: center;
+}
+
+#prsnl p:first-child {
+    top: 200px;
+}
+
+.usual {
+    font-size: 45px;
+    padding: 8px 15px;
+    border-radius: 9px;
+    color: rgba(150, 37, 30, 1);
+    margin: 5px 0 20px;
+    display: inline-block;
+}
+
+.ptitle {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    padding: 8px 15px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 10px 0 15px;
+    box-shadow: 0 0 5px white;
+    background-color: rgba(150, 37, 30, 0.5);
+}
+.mtitle:first-child {
+    margin-top: 50px;
+}
+
+#edctn div {
+    width: 88%;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 5px solid white;
+    background-color: RGBA(255, 161, 83, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.etitle {
+    font-size: 50px;
+    display: inline-block;
+    background-color: rgba(241, 241, 241, 0.7);
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    box-sizing: border-box;
+    color: RGBA(255, 161, 83, 1.00);
+    border-radius: 10px;
+}
+
+.eusual {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.centered {
+    width: 90%;
+    margin: 40px auto;
+}
+
+#skls p {
+    font-size: 54px;
+    margin: 12px 10px;
+    background-color: RGBA(155, 241, 240, 1);
+    border: RGBA(155, 241, 240, 1.00);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+#xprnc {
+    text-align: center;
+}
+#xprnc p {
+    font-size: 50px;
+    color: white;
+    border-radius: 12px;
+    border: 6px solid white;
+    padding: 15px;
+    background-color: RGBA(97, 255, 154, 0.9);
+}
+
+.social img {
+    width: 30%;
+    float: left;
+    clear: both;
+}
+.social img:first-child {
+    clear: left;
+}
+#tocall {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    width: 40%;
+    
+    animation-name: callanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#downtext {
+    position: absolute;
+    left: 3%;
+    bottom: 15%;
+    text-align: right;
+    display: inline-block;
+}
+#downtext a {
+    background-color: RGBA(80, 192, 58, 1.00);
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+
+small {
+    font-size: 30px;
+    color: white;
+    display: none;
+}

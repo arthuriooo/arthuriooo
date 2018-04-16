@@ -1,0 +1,596 @@
+/// copypast ///
+
+#long {
+    height: 100%;
+    width: 1000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 155;
+    background-color: black;
+    
+}
+#a,#r1,#t,#h,#u,#r2,#i,#o1,#o2,#o3 {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: black;
+}
+
+#a {
+    left: 0;
+    z-index: 20;
+}
+#a p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#r1 {
+    left: 100%;
+    z-index: 21;
+}
+#r1 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#t {
+    left: 200%;
+    z-index: 22;
+}
+#t p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#h {
+    left: 300%;
+    z-index: 23;
+}
+#h p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#u {
+    left: 400%;
+    z-index: 24;
+}
+#u p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#r2 {
+    left: 500%;
+    z-index: 25;
+}
+#r2 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#i {
+    left: 600%;
+    z-index: 26;
+}
+#i p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#o1 {
+    left: 700%;
+    z-index: 27;
+}
+#o1 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#o2 {
+    left: 800%;
+    z-index: 28;
+}
+#o2 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+#o3 {
+    left: 900%;
+    z-index: 29;
+}
+#o3 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1500px;
+}
+
+
+
+
+/// --- ////
+
+
+
+//    setTimeout(function(){
+//        $('#loading').fadeOut(800);
+//    },3000);
+    
+//    setTimeout(function(){
+//        $('#r1').css({
+//            'animation-name':'move',
+//            'animation-duration':'3s'
+//        });
+//    },500);
+    
+//    setTimeout(function(){
+//        $('#a').animate({
+//            left: '-100%'
+//        },900,function(){});
+//    },2000);
+//    $('#r1')
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+//    $('#t')
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+//    $('#h')
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){})
+//    $('#u')
+//        .animate({
+//            left: '300%'
+//        },900,function(){})
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){})
+//    $('#r2')
+//        .animate({
+//            left: '400%'
+//        },900,function(){})
+//        .animate({
+//            left: '300%'
+//        },900,function(){})
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+//    $('#i')
+//        .animate({
+//            left: '500%'
+//        },900,function(){})
+//        .animate({
+//            left: '400%'
+//        },900,function(){})
+//        .animate({
+//            left: '300%'
+//        },900,function(){})
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+//    $('#o1')
+//        .animate({
+//            left: '600%'
+//        },900,function(){})
+//        .animate({
+//            left: '500%'
+//        },900,function(){})
+//        .animate({
+//            left: '400%'
+//        },900,function(){})
+//        .animate({
+//            left: '300%'
+//        },900,function(){})
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+//    $('#o2')
+//        .animate({
+//            left: '700%'
+//        },900,function(){})
+//        .animate({
+//            left: '600%'
+//        },900,function(){})
+//        .animate({
+//            left: '500%'
+//        },900,function(){})
+//        .animate({
+//            left: '400%'
+//        },900,function(){})
+//        .animate({
+//            left: '300%'
+//        },900,function(){})
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+//    $('#o3')
+//        .animate({
+//            left: '800%'
+//        },900,function(){})
+//        .animate({
+//            left: '700%'
+//        },900,function(){})
+//        .animate({
+//            left: '600%'
+//        },900,function(){})
+//        .animate({
+//            left: '500%'
+//        },900,function(){})
+//        .animate({
+//            left: '400%'
+//        },900,function(){})
+//        .animate({
+//            left: '300%'
+//        },900,function(){})
+//        .animate({
+//            left: '200%'
+//        },900,function(){})
+//        .animate({
+//            left: '100%'
+//        },900,function(){})
+//        .animate({
+//            left: '0%'
+//        },900,function(){})
+//        .animate({
+//            left: '-100%'
+//        },900,function(){});
+    
+    $('#long').animate({
+        left:'-10000%'
+    },10000,function(){});
+    
+    
+    //// // // / /// // / // / // 
+    
+    
+    / // //  // /// // / ///  // /
+    
+    
+    
+    
+    
+    <!--
+        <div id='loading'>
+            <div id="load"><img src='load4.png'></div>
+        </div>
+-->
+      
+        <div id='long'>
+            <div id='a'>
+                <p>A</p>
+            </div>
+            <div id='r1'>
+                <p>R</p>
+            </div>
+            <div id='t'>
+                <p>T</p>
+            </div>
+            <div id='h'>
+                <p>H</p>
+            </div>
+            <div id='u'>
+                <p>U</p>
+            </div>
+            <div id='r2'>
+                <p>R</p>
+            </div>
+            <div id='i'>
+                <p>I</p>
+            </div>
+            <div id='o1'>
+                <p>O</p>
+            </div>
+            <div id='o2'>
+                <p>O</p>
+            </div>
+            <div id='o3'>
+                <p>O</p>
+            </div>
+        </div> 
+        
+        
+        ///////// / / / // / // 
+         // // 
+         
+         / / // / / / / 
+         / / /// 
+          / / // /   / / / // / / /  / / /
+           // / / / / /
+            / / /
+             / 
+              
+               /
+                /  / / / 
+                
+                 
+                  
+                   
+                   / /
+                    /
+                      / /
+                      /
+                       / /  /
+                        /
+                        
+                        // 
+                        / /
+                         
+                         / 
+                         / 
+                         / 
+                         / /
+                          / //
+                           /
+                            /
+                             
+                             /
+                             
+                             //////
+                             //
+                             / // / 
+                             /
+                              
+                              
+                               
+                                / /
+                                 / 
+                                 / 
+                                 / 
+                                 / 
+                                 / 
+                                 / 
+                                 / /
+                                  
+                                  
+                                  
+                                  #gender {
+    height: 15%;
+    width: 70%;
+    margin: 20px auto 10px;
+}
+
+#gender p {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin: 20px 0 20px;
+}
+#mj {
+    margin: 0;
+    width: 100%;
+    height: 75%;   
+}
+#m {
+    width: 50%;
+    float: left;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgba(189, 185, 135, 0.5);
+    border: white solid 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(189, 185, 135, 0.5);
+}
+#j {
+    width: 50%;
+    float: right;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgba(189, 185, 135, 0.5);
+    border: white solid 2px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(189, 185, 135, 0.5);
+}
+
+
+///////////////////////////////////
+
+
+@keyframes grad {
+    0% { background: linear-gradient(4deg, palegoldenrod, paleturquoise ); }
+    1% { background: linear-gradient(8deg, palegoldenrod, paleturquoise ); }
+    2% { background: linear-gradient(12deg, palegoldenrod, paleturquoise ); }
+    3% { background: linear-gradient(16deg, palegoldenrod, paleturquoise ); }
+    4% { background: linear-gradient(20deg, palegoldenrod, paleturquoise ); }
+    5% { background: linear-gradient(24deg, palegoldenrod, paleturquoise ); }
+    6% { background: linear-gradient(28deg, palegoldenrod, paleturquoise ); }
+    7% { background: linear-gradient(32deg, palegoldenrod, paleturquoise ); }
+    8% { background: linear-gradient(36deg, palegoldenrod, paleturquoise ); }
+    9% { background: linear-gradient(40deg, palegoldenrod, paleturquoise ); }
+    10% { background: linear-gradient(44deg, palegoldenrod, paleturquoise ); }
+    11% { background: linear-gradient(48deg, palegoldenrod, paleturquoise ); }
+    12% { background: linear-gradient(52deg, palegoldenrod, paleturquoise ); }
+    13% { background: linear-gradient(56deg, palegoldenrod, paleturquoise ); }
+    14% { background: linear-gradient(60deg, palegoldenrod, paleturquoise ); }
+    15% { background: linear-gradient(64deg, palegoldenrod, paleturquoise ); }
+    16% { background: linear-gradient(68deg, palegoldenrod, paleturquoise ); }
+    17% { background: linear-gradient(72deg, palegoldenrod, paleturquoise ); }
+    18% { background: linear-gradient(76deg, palegoldenrod, paleturquoise ); }
+    19% { background: linear-gradient(80deg, palegoldenrod, paleturquoise ); }
+    20% { background: linear-gradient(84deg, palegoldenrod, paleturquoise ); }
+    21% { background: linear-gradient(88deg, palegoldenrod, paleturquoise ); }
+    22% { background: linear-gradient(92deg, palegoldenrod, paleturquoise ); }
+    23% { background: linear-gradient(96deg, palegoldenrod, paleturquoise ); }
+    24% { background: linear-gradient(100deg, palegoldenrod, paleturquoise ); }
+    25% { background: linear-gradient(104deg, palegoldenrod, paleturquoise ); }
+    26% { background: linear-gradient(108deg, palegoldenrod, paleturquoise ); }
+    27% { background: linear-gradient(112deg, palegoldenrod, paleturquoise ); }
+    28% { background: linear-gradient(116deg, palegoldenrod, paleturquoise ); }
+    29% { background: linear-gradient(120deg, palegoldenrod, paleturquoise ); }
+    30% { background: linear-gradient(124deg, palegoldenrod, paleturquoise ); }
+    31% { background: linear-gradient(128deg, palegoldenrod, paleturquoise ); }
+    32% { background: linear-gradient(132deg, palegoldenrod, paleturquoise ); }
+    33% { background: linear-gradient(136deg, palegoldenrod, paleturquoise ); }
+    34% { background: linear-gradient(140deg, palegoldenrod, paleturquoise ); }
+    35% { background: linear-gradient(144deg, palegoldenrod, paleturquoise ); }
+    36% { background: linear-gradient(148deg, palegoldenrod, paleturquoise ); }
+    37% { background: linear-gradient(152deg, palegoldenrod, paleturquoise ); }
+    38% { background: linear-gradient(156deg, palegoldenrod, paleturquoise ); }
+    39% { background: linear-gradient(160deg, palegoldenrod, paleturquoise ); }
+    40% { background: linear-gradient(164deg, palegoldenrod, paleturquoise ); }
+    41% { background: linear-gradient(168deg, palegoldenrod, paleturquoise ); }
+    42% { background: linear-gradient(172deg, palegoldenrod, paleturquoise ); }
+    43% { background: linear-gradient(176deg, palegoldenrod, paleturquoise ); }
+    44% { background: linear-gradient(180deg, palegoldenrod, paleturquoise ); }
+    45% { background: linear-gradient(184deg, palegoldenrod, paleturquoise ); }
+    46% { background: linear-gradient(188deg, palegoldenrod, paleturquoise ); }
+    47% { background: linear-gradient(192deg, palegoldenrod, paleturquoise ); }
+    48% { background: linear-gradient(196deg, palegoldenrod, paleturquoise ); }
+    49% { background: linear-gradient(200deg, palegoldenrod, paleturquoise ); }
+    51% { background: linear-gradient(204deg, palegoldenrod, paleturquoise ); }
+    52% { background: linear-gradient(208deg, palegoldenrod, paleturquoise ); }
+    53% { background: linear-gradient(212deg, palegoldenrod, paleturquoise ); }
+    54% { background: linear-gradient(216deg, palegoldenrod, paleturquoise ); }
+    55% { background: linear-gradient(220deg, palegoldenrod, paleturquoise ); }
+    56% { background: linear-gradient(224deg, palegoldenrod, paleturquoise ); }
+    57% { background: linear-gradient(228deg, palegoldenrod, paleturquoise ); }
+    58% { background: linear-gradient(232deg, palegoldenrod, paleturquoise ); }
+    59% { background: linear-gradient(236deg, palegoldenrod, paleturquoise ); }
+    60% { background: linear-gradient(240deg, palegoldenrod, paleturquoise ); }
+    61% { background: linear-gradient(244deg, palegoldenrod, paleturquoise ); }
+    62% { background: linear-gradient(248deg, palegoldenrod, paleturquoise ); }
+    63% { background: linear-gradient(252deg, palegoldenrod, paleturquoise ); }
+    64% { background: linear-gradient(256deg, palegoldenrod, paleturquoise ); }
+    65% { background: linear-gradient(260deg, palegoldenrod, paleturquoise ); }
+    66% { background: linear-gradient(264deg, palegoldenrod, paleturquoise ); }
+    67% { background: linear-gradient(268deg, palegoldenrod, paleturquoise ); }
+    68% { background: linear-gradient(272deg, palegoldenrod, paleturquoise ); }
+    69% { background: linear-gradient(276deg, palegoldenrod, paleturquoise ); }
+    70% { background: linear-gradient(280deg, palegoldenrod, paleturquoise ); }
+    71% { background: linear-gradient(284deg, palegoldenrod, paleturquoise ); }
+    72% { background: linear-gradient(288deg, palegoldenrod, paleturquoise ); }
+    73% { background: linear-gradient(292deg, palegoldenrod, paleturquoise ); }
+    74% { background: linear-gradient(296deg, palegoldenrod, paleturquoise ); }
+    75% { background: linear-gradient(300deg, palegoldenrod, paleturquoise ); }
+    76% { background: linear-gradient(304deg, palegoldenrod, paleturquoise ); }
+    77% { background: linear-gradient(308deg, palegoldenrod, paleturquoise ); }
+    78% { background: linear-gradient(312deg, palegoldenrod, paleturquoise ); }
+    79% { background: linear-gradient(316deg, palegoldenrod, paleturquoise ); }
+    80% { background: linear-gradient(320deg, palegoldenrod, paleturquoise ); }
+    81% { background: linear-gradient(324deg, palegoldenrod, paleturquoise ); }
+    82% { background: linear-gradient(328deg, palegoldenrod, paleturquoise ); }
+    83% { background: linear-gradient(332deg, palegoldenrod, paleturquoise ); }
+    84% { background: linear-gradient(336deg, palegoldenrod, paleturquoise ); }
+    85% { background: linear-gradient(340deg, palegoldenrod, paleturquoise ); }
+    86% { background: linear-gradient(344deg, palegoldenrod, paleturquoise ); }
+    87% { background: linear-gradient(347deg, palegoldenrod, paleturquoise ); }
+    88% { background: linear-gradient(349deg, palegoldenrod, paleturquoise ); }
+    89% { background: linear-gradient(350deg, palegoldenrod, paleturquoise ); }
+    90% { background: linear-gradient(351deg, palegoldenrod, paleturquoise ); }
+    91% { background: linear-gradient(352deg, palegoldenrod, paleturquoise ); }
+    92% { background: linear-gradient(353deg, palegoldenrod, paleturquoise ); }
+    93% { background: linear-gradient(354deg, palegoldenrod, paleturquoise ); }
+    94% { background: linear-gradient(355deg, palegoldenrod, paleturquoise ); }
+    95% { background: linear-gradient(356deg, palegoldenrod, paleturquoise ); }
+    96% { background: linear-gradient(357deg, palegoldenrod, paleturquoise ); }
+    97% { background: linear-gradient(358deg, palegoldenrod, paleturquoise ); }
+    98% { background: linear-gradient(359deg, palegoldenrod, paleturquoise ); }
+    99% { background: linear-gradient(360deg, palegoldenrod, paleturquoise ); }
+    100% { background: linear-gradient(360deg, palegoldenrod, paleturquoise ); }
+}
